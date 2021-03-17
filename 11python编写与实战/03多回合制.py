@@ -15,6 +15,7 @@ def fight():
     while True:
         my_hp = my_hp - you_power
         you_hp = you_hp - my_power
+        print("我的血量",my_hp)
 
         if my_hp<=0:
             print("我剩余血量为",my_hp)
