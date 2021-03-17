@@ -11,12 +11,12 @@ class Bike():
 
 class Ebike(Bike):
     # 类属性 valume 电量
-    def __init__(self,valume):
-        self.valume = valume
+    def __init__(self,valume2):
+        self.valume = valume2
     # 用来充电，vol为电量
-    def fill_change(self, vol):
+    def fill_change(self,vol):
         print(f"已充电{vol}度")
-        print(f"充电之后还有{vol + self.valume}度")
+        print(f"充电之后还有{vol +self.valume}度")
         self.valume = vol + self.valume
 
     def run(self,km):
@@ -34,7 +34,7 @@ class Ebike(Bike):
 
 
 
-
+# 实例化有初始化属性的类时，需要传属性的值
 my_bike = Ebike(100)
 my_bike.fill_change(10)
 my_bike.run(10000)
