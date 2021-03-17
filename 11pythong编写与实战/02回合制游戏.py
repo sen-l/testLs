@@ -32,7 +32,7 @@ def fight():
 
     if my_final_hp > you_final_hp:
         print("哈哈，我赢了！")
-    elif:
+    elif my_final_hp < you_final_hp:
         print("你输了！")
     else:
         print("平局")
