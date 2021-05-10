@@ -3,7 +3,7 @@
 # @Author : ls
 # @File : 03类与对象、类继承.py
 
-class Bike():
+class Bike:
 
 
     def run(self,km):
